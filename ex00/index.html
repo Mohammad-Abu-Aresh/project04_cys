@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Abu Aresh | Software Engineering Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">MAA<span>.dev</span></div>
+        <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+    </header>
+
+    <main>
+
+        <section id="about" class="about-section">
+            <div class="about-container">
+                <div class="about-text">
+                    <h1>Hi, I'm <span class="highlight">Mohammad Abu Aresh</span></h1>
+                    <p class="subtitle">Software Engineering Student at 42 Irbid & Systems Enthusiast</p>
+                    <p class="bio">
+                        I am a 21-year-old developer based in Irbid, Jordan, deeply passionate about low-level systems, 
+                        automation, and building robust full-stack applications. From configuring secure Linux environments 
+                        to engineering dynamic web platforms, I love transforming complex logic into clean, efficient code.
+                    </p>
+                    <div class="about-actions">
+                        <a href="#contact" class="btn primary-btn">Get in Touch</a>
+                        <a href="#projects" class="btn secondary-btn">View Work</a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="assets/profile.jpg" alt="Mohammad Abu Aresh Portrait" id="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-solid fa-terminal"></i>
+                    <h3>Languages</h3>
+                    <p>C, C++, Python, JavaScript, Dart, Bash</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3>Frameworks & Tools</h3>
+                    <p>Flutter, Supabase, Docker, Pydantic, Poetry, Git</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-server"></i>
+                    <h3>Systems & Admin</h3>
+                    <p>Debian, Fedora, Arch Linux, Windows 11, UFW</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2>Project Showcase</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>A_maze_ing</h3>
+                        <p>Python software package for maze generation, validation, and DFS pathfinding with Pydantic configurations.</p>
+                        <span class="tag">Python</span><span class="tag">Poetry</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Pacman</h3>
+                        <p>This project transforms the maze generator concept into a fully playable Pac-Man game with a custom visual identity</p>
+                        <span class="tag">Game's</span><span class="tag">Python</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies" class="hobbies-section">
+            <h2>Beyond Coding</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <i class="fa-solid fa-seedling"></i>
+                    <h3>Home Gardening</h3>
+                    <p>Passionate about cultivating climbing passion fruit vines, propagating rosemary, and growing herbs in recycled containers.</p>
+                </div>
+                <div class="hobby-card">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h3>Retro & Arcade Dev</h3>
+                    <p>Building custom 2.5D arcade games and exploring algorithmic logic puzzles in Python and Pygame.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Get In Touch</h2>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn">Send Message</p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Mohammad Abu Aresh. Crafted with pure HTML, CSS, and JS (No frameworks).</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
